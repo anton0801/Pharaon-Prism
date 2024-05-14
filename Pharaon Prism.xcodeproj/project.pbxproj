@@ -1,0 +1,505 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EEA66AC72BEFE0B600326C25 /* Pharaon_PrismApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AC62BEFE0B600326C25 /* Pharaon_PrismApp.swift */; };
+		EEA66AC92BEFE0B600326C25 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AC82BEFE0B600326C25 /* ContentView.swift */; };
+		EEA66ACB2BEFE0B900326C25 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA66ACA2BEFE0B900326C25 /* Assets.xcassets */; };
+		EEA66ACE2BEFE0B900326C25 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EEA66ACD2BEFE0B900326C25 /* Preview Assets.xcassets */; };
+		EEA66AD72BEFE16700326C25 /* AppNavigationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AD62BEFE16700326C25 /* AppNavigationView.swift */; };
+		EEA66ADC2BEFE1EF00326C25 /* LevelsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66ADB2BEFE1EF00326C25 /* LevelsView.swift */; };
+		EEA66ADE2BEFE1FB00326C25 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66ADD2BEFE1FB00326C25 /* HomeView.swift */; };
+		EEA66AE02BEFE20600326C25 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66ADF2BEFE20600326C25 /* SettingsView.swift */; };
+		EEA66AE32BEFEDAA00326C25 /* LevelItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AE22BEFEDAA00326C25 /* LevelItem.swift */; };
+		EEA66AE52BEFEDD600326C25 /* LevelsData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AE42BEFEDD600326C25 /* LevelsData.swift */; };
+		EEA66AE82BEFEFBE00326C25 /* KumarOne-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EEA66AE72BEFEFBE00326C25 /* KumarOne-Regular.ttf */; };
+		EEA66AEC2BEFF38400326C25 /* PrismGameView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AEB2BEFF38400326C25 /* PrismGameView.swift */; };
+		EEA66AEF2BEFFCC500326C25 /* PrismGameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AEE2BEFFCC500326C25 /* PrismGameScene.swift */; };
+		EEA66AF12BF0164700326C25 /* GamePauseNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AF02BF0164700326C25 /* GamePauseNode.swift */; };
+		EEA66AF42BF0CD5E00326C25 /* GameWinView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AF32BF0CD5E00326C25 /* GameWinView.swift */; };
+		EEA66AF62BF0CF2500326C25 /* GameLoseVIew.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEA66AF52BF0CF2500326C25 /* GameLoseVIew.swift */; };
+		EEA66AF92BF0D00B00326C25 /* block.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEA66AF82BF0D00B00326C25 /* block.mp3 */; };
+		EEA66AFB2BF0D05B00326C25 /* back_music.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = EEA66AFA2BF0D05B00326C25 /* back_music.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EEA66AC32BEFE0B600326C25 /* Pharaon Prism.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pharaon Prism.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EEA66AC62BEFE0B600326C25 /* Pharaon_PrismApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pharaon_PrismApp.swift; sourceTree = "<group>"; };
+		EEA66AC82BEFE0B600326C25 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		EEA66ACA2BEFE0B900326C25 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EEA66ACD2BEFE0B900326C25 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EEA66AD62BEFE16700326C25 /* AppNavigationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppNavigationView.swift; sourceTree = "<group>"; };
+		EEA66ADB2BEFE1EF00326C25 /* LevelsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsView.swift; sourceTree = "<group>"; };
+		EEA66ADD2BEFE1FB00326C25 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		EEA66ADF2BEFE20600326C25 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		EEA66AE22BEFEDAA00326C25 /* LevelItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelItem.swift; sourceTree = "<group>"; };
+		EEA66AE42BEFEDD600326C25 /* LevelsData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelsData.swift; sourceTree = "<group>"; };
+		EEA66AE72BEFEFBE00326C25 /* KumarOne-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "KumarOne-Regular.ttf"; sourceTree = "<group>"; };
+		EEA66AE92BEFEFD200326C25 /* Pharaon-Prism-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Pharaon-Prism-Info.plist"; sourceTree = SOURCE_ROOT; };
+		EEA66AEB2BEFF38400326C25 /* PrismGameView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismGameView.swift; sourceTree = "<group>"; };
+		EEA66AEE2BEFFCC500326C25 /* PrismGameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrismGameScene.swift; sourceTree = "<group>"; };
+		EEA66AF02BF0164700326C25 /* GamePauseNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GamePauseNode.swift; sourceTree = "<group>"; };
+		EEA66AF32BF0CD5E00326C25 /* GameWinView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameWinView.swift; sourceTree = "<group>"; };
+		EEA66AF52BF0CF2500326C25 /* GameLoseVIew.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLoseVIew.swift; sourceTree = "<group>"; };
+		EEA66AF82BF0D00B00326C25 /* block.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = block.mp3; sourceTree = "<group>"; };
+		EEA66AFA2BF0D05B00326C25 /* back_music.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = back_music.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EEA66AC02BEFE0B600326C25 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EEA66ABA2BEFE0B600326C25 = {
+			isa = PBXGroup;
+			children = (
+				EEA66AC52BEFE0B600326C25 /* Pharaon Prism */,
+				EEA66AC42BEFE0B600326C25 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EEA66AC42BEFE0B600326C25 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AC32BEFE0B600326C25 /* Pharaon Prism.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EEA66AC52BEFE0B600326C25 /* Pharaon Prism */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AF72BF0CFFE00326C25 /* Sounds */,
+				EEA66AEA2BEFF37B00326C25 /* PrismGame */,
+				EEA66AE92BEFEFD200326C25 /* Pharaon-Prism-Info.plist */,
+				EEA66AE72BEFEFBE00326C25 /* KumarOne-Regular.ttf */,
+				EEA66AE62BEFEFB500326C25 /* Fonts */,
+				EEA66AE12BEFEDA100326C25 /* GameData */,
+				EEA66AD52BEFE0CA00326C25 /* AppViews */,
+				EEA66AD42BEFE0C200326C25 /* AppNavigationView */,
+				EEA66AC62BEFE0B600326C25 /* Pharaon_PrismApp.swift */,
+				EEA66AC82BEFE0B600326C25 /* ContentView.swift */,
+				EEA66ACA2BEFE0B900326C25 /* Assets.xcassets */,
+				EEA66ACC2BEFE0B900326C25 /* Preview Content */,
+			);
+			path = "Pharaon Prism";
+			sourceTree = "<group>";
+		};
+		EEA66ACC2BEFE0B900326C25 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66ACD2BEFE0B900326C25 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EEA66AD42BEFE0C200326C25 /* AppNavigationView */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AD62BEFE16700326C25 /* AppNavigationView.swift */,
+			);
+			path = AppNavigationView;
+			sourceTree = "<group>";
+		};
+		EEA66AD52BEFE0CA00326C25 /* AppViews */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66ADA2BEFE1E100326C25 /* Settings */,
+				EEA66AD92BEFE1D900326C25 /* Home */,
+				EEA66AD82BEFE1D200326C25 /* LevelsView */,
+			);
+			path = AppViews;
+			sourceTree = "<group>";
+		};
+		EEA66AD82BEFE1D200326C25 /* LevelsView */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66ADB2BEFE1EF00326C25 /* LevelsView.swift */,
+			);
+			path = LevelsView;
+			sourceTree = "<group>";
+		};
+		EEA66AD92BEFE1D900326C25 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66ADD2BEFE1FB00326C25 /* HomeView.swift */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EEA66ADA2BEFE1E100326C25 /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66ADF2BEFE20600326C25 /* SettingsView.swift */,
+			);
+			path = Settings;
+			sourceTree = "<group>";
+		};
+		EEA66AE12BEFEDA100326C25 /* GameData */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AE22BEFEDAA00326C25 /* LevelItem.swift */,
+				EEA66AE42BEFEDD600326C25 /* LevelsData.swift */,
+			);
+			path = GameData;
+			sourceTree = "<group>";
+		};
+		EEA66AE62BEFEFB500326C25 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EEA66AEA2BEFF37B00326C25 /* PrismGame */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AF22BF0CD5000326C25 /* GameResults */,
+				EEA66AED2BEFFCB600326C25 /* GameScene */,
+				EEA66AEB2BEFF38400326C25 /* PrismGameView.swift */,
+			);
+			path = PrismGame;
+			sourceTree = "<group>";
+		};
+		EEA66AED2BEFFCB600326C25 /* GameScene */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AEE2BEFFCC500326C25 /* PrismGameScene.swift */,
+				EEA66AF02BF0164700326C25 /* GamePauseNode.swift */,
+			);
+			path = GameScene;
+			sourceTree = "<group>";
+		};
+		EEA66AF22BF0CD5000326C25 /* GameResults */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AF32BF0CD5E00326C25 /* GameWinView.swift */,
+				EEA66AF52BF0CF2500326C25 /* GameLoseVIew.swift */,
+			);
+			path = GameResults;
+			sourceTree = "<group>";
+		};
+		EEA66AF72BF0CFFE00326C25 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				EEA66AFA2BF0D05B00326C25 /* back_music.mp3 */,
+				EEA66AF82BF0D00B00326C25 /* block.mp3 */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EEA66AC22BEFE0B600326C25 /* Pharaon Prism */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EEA66AD12BEFE0B900326C25 /* Build configuration list for PBXNativeTarget "Pharaon Prism" */;
+			buildPhases = (
+				EEA66ABF2BEFE0B600326C25 /* Sources */,
+				EEA66AC02BEFE0B600326C25 /* Frameworks */,
+				EEA66AC12BEFE0B600326C25 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pharaon Prism";
+			productName = "Pharaon Prism";
+			productReference = EEA66AC32BEFE0B600326C25 /* Pharaon Prism.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EEA66ABB2BEFE0B600326C25 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					EEA66AC22BEFE0B600326C25 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+				};
+			};
+			buildConfigurationList = EEA66ABE2BEFE0B600326C25 /* Build configuration list for PBXProject "Pharaon Prism" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EEA66ABA2BEFE0B600326C25;
+			productRefGroup = EEA66AC42BEFE0B600326C25 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EEA66AC22BEFE0B600326C25 /* Pharaon Prism */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EEA66AC12BEFE0B600326C25 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA66ACE2BEFE0B900326C25 /* Preview Assets.xcassets in Resources */,
+				EEA66AE82BEFEFBE00326C25 /* KumarOne-Regular.ttf in Resources */,
+				EEA66AF92BF0D00B00326C25 /* block.mp3 in Resources */,
+				EEA66AFB2BF0D05B00326C25 /* back_music.mp3 in Resources */,
+				EEA66ACB2BEFE0B900326C25 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EEA66ABF2BEFE0B600326C25 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEA66AE52BEFEDD600326C25 /* LevelsData.swift in Sources */,
+				EEA66AE32BEFEDAA00326C25 /* LevelItem.swift in Sources */,
+				EEA66AEF2BEFFCC500326C25 /* PrismGameScene.swift in Sources */,
+				EEA66AC92BEFE0B600326C25 /* ContentView.swift in Sources */,
+				EEA66AF62BF0CF2500326C25 /* GameLoseVIew.swift in Sources */,
+				EEA66ADC2BEFE1EF00326C25 /* LevelsView.swift in Sources */,
+				EEA66AC72BEFE0B600326C25 /* Pharaon_PrismApp.swift in Sources */,
+				EEA66AE02BEFE20600326C25 /* SettingsView.swift in Sources */,
+				EEA66AEC2BEFF38400326C25 /* PrismGameView.swift in Sources */,
+				EEA66AF12BF0164700326C25 /* GamePauseNode.swift in Sources */,
+				EEA66ADE2BEFE1FB00326C25 /* HomeView.swift in Sources */,
+				EEA66AD72BEFE16700326C25 /* AppNavigationView.swift in Sources */,
+				EEA66AF42BF0CD5E00326C25 /* GameWinView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		EEA66ACF2BEFE0B900326C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EEA66AD02BEFE0B900326C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EEA66AD22BEFE0B900326C25 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pharaon Prism/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pharaon-Prism-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Pharaon-Prism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		EEA66AD32BEFE0B900326C25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Pharaon Prism/Preview Content\"";
+				DEVELOPMENT_TEAM = 4RSA42DBKQ;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Pharaon-Prism-Info.plist";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gamebig.Pharaon-Prism";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EEA66ABE2BEFE0B600326C25 /* Build configuration list for PBXProject "Pharaon Prism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA66ACF2BEFE0B900326C25 /* Debug */,
+				EEA66AD02BEFE0B900326C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EEA66AD12BEFE0B900326C25 /* Build configuration list for PBXNativeTarget "Pharaon Prism" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EEA66AD22BEFE0B900326C25 /* Debug */,
+				EEA66AD32BEFE0B900326C25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EEA66ABB2BEFE0B600326C25 /* Project object */;
+}
